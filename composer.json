@@ -1,0 +1,19 @@
+{
+    "name": "alex/blog",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "alex nenko",
+            "email": "alex@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^7.30",
+        "symfony/var-dumper": "^5.4",
+        "twig/twig": "^3.0"
+    }
+}
